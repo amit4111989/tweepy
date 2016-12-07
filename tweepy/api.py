@@ -121,7 +121,7 @@ class API(object):
             path='/statuses/user_timeline.json',
             payload_type='status', payload_list=True,
             allowed_param=['id', 'user_id', 'screen_name', 'since_id',
-                           'max_id', 'count', 'include_rts']
+                           'max_id', 'count', 'include_rts', 'exclude_replies']
         )
 
     @property
